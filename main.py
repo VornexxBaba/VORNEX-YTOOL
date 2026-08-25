@@ -416,4 +416,4 @@ class AramaMotoru:
         finally:
             self.ui.durum_goster("Killer", "bilgi",
                 f"Gönderilen: {killer.istatistik['gonderilen']} | Hata: {killer.istatistik['hata']} | Ban Riski: {killer.istatistik['ban_risk']}")
-        input(f"\n{Fore.CYAN}Devam etmek) 
+        input(f"\n{Fore.CYAN}Devam etmek...")
